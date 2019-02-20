@@ -5,20 +5,42 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>PHLOX INC.</title>
       <link type="text/css" rel="stylesheet" href="style.css">
+
+      <style>
+        li a{color:gray;}
+        li a:hover { color:black; }
+
+        @media screen and (max-width: 1024px){
+
+          #text> .contents .contents-left{margin:9rem 3rem;}
+          #text> .contents .contents-left .subtitle { font-size:1.4rem; line-height:1.5;}
+
+          .text{margin-top:0rem;}
+
+          #navmenu{background-color:white;}
+
+
+        }
+      </style>
+
   </head>
 
   <body>
     <!-- id=intro / id=open 두 가지가 있음, open 시는 subtitle 하단을 invisible 처리해야 함-->
       <div id="text">
-        <div class="header active">
+         
+         <div class="header">
 
-          <div class="header-left">
-            <a class="logo" href="main.html"></a>
+              <ul id="navmenu">            
+                <div class="header-left">
+                <a class="logo" href="index.html"></a>
+                </div>
+                <li><a href="index.html">ussly</a></li>
+                <li><a href="kuko.html">kuko</a></li>
+              </ul>
+
           </div>
 
-          <div class="header-right"></div>
-
-        </div>
         <div class="contents">
           <div class="contents-left">
             <div class="text">
