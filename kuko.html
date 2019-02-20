@@ -66,6 +66,22 @@
 			}
 			.footer a{ font-weight: 900;}
 
+			@media screen and (max-width: 1024px){
+
+			#kuko_logo{margin-left:0rem; width:18rem;height:7.9rem; margin:0 auto;}
+
+			#emailboxwhole{margin-top:0.2rem;}
+			#emailbox{width:24rem;font-size:1.2rem; border-radius:.5rem; text-align:center; margin-top:1.4rem;}
+			#submit{width:24rem; border-radius:.5rem;}
+			#smallexplanation{margin-top:1rem;color:rgba(255,255,255,0.6); font-size:1.1rem;}
+    
+		    .footer{padding-left:3rem; height:42rem;}
+		    .footer .text{margin-left:0%; width:80%;}
+		    .footer .text .policy{margin-bottom:1rem;}
+
+		    #kbescrow{width:6rem; margin-top:3rem;}
+			}
+
       
       </style>
 </head>
@@ -114,9 +130,9 @@
               </br>문의 : contact@phloxcorp.io
             </div>
             <div class="text">
-              <a href="terms.html">이용약관</a>
+              <a class="policy" href="terms.html">이용약관</a>
                 </br>
-              <a href="privacypolicy.html">개인정보처리방침</a>
+              <a class="policy" href="privacypolicy.html">개인정보처리방침</a>
             </div>
             <div>
               <script>
@@ -134,7 +150,7 @@
               <input type="hidden" name="mHValue" value='c6b6f8e017066161267465e27e451b16201809131126556'/>
               </form>
               <a href="#" onclick="javascript:onPopKBAuthMark();return false;">
-              <img src="https://img1.kbstar.com/img/escrow/escrowcmark.gif" border="0"/>
+              <img id="kbescrow" src="http://img1.kbstar.com/img/escrow/escrowcmark.gif" border="0"/>
               </a>
               <!-- KB에스크로 이체 인증마크 적용 종료 -->
             </div>
