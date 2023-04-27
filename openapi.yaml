@@ -20,6 +20,11 @@ paths:
           schema:
             type: string
           description: The maximum price.
+        - name: minPrice
+          in: query
+          schema:
+            type: string
+          description: The minimum price.
       responses:
         '200':
           description: OK
