@@ -4,7 +4,7 @@ info:
   description: defaultDescription
   version: '0.1'
 servers:
-  - url: https://whipped-api.phloxcorp.io:448
+  - url: https://whipped-api.phloxcorp.io
 paths:
   /search:
     get:
