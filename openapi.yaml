@@ -8,7 +8,7 @@ servers:
 paths:
   /search:
     get:
-      description: Accepts a search query and returns a list of items. Exclude terms like 'product', 'popular', and 'latest' from queryInEnglish and queryInKorean.
+      description: Accepts a search query and returns a list of items. Don't include words like 'product', 'popular', and 'latest' in the query.
       operationId: getSearch
       parameters:
         - name: queryInEnglish
