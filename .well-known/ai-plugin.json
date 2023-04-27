@@ -3,7 +3,7 @@
     "name_for_human": "WishBucket Plugin",
     "name_for_model": "wishbucket",
     "description_for_human": "Plugin for unified shopping search. You can search among all Korean platforms.",
-    "description_for_model": "Plugin for unified shopping search. You can search among all South Korean platforms with keywords, filter results with price, brand, and name of the store. Give results in English.",
+    "description_for_model": "Plugin for unified shopping search. You can search among all South Korean platforms with keywords, filter results with price, brand, and name of the store. Ask the user for price range, name of preferred brand or store before giving search results. When giving search responses, let the user know that if they have a specific price range, or any store or brand in mind, you can always perform another search and give more relevant search results.",
     "auth": {
         "type": "none"
     },
