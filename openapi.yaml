@@ -32,6 +32,16 @@ paths:
           schema:
             type: string
           description: The minimum price.
+        - name: brandName
+          in: query
+          schema:
+            type: string
+          description: The name of brand to filter by.
+        - name: storeName
+          in: query
+          schema:
+            type: string
+          description: The name of store to filter by.
       responses:
         '200':
           description: OK
@@ -70,4 +80,7 @@ components:
                 type: array
                 items:
                   type: string
+              # likeCount:
+              #   type: integer
+              #   description: The number of likes each item has received.
           description: The list of items.
