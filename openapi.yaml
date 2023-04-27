@@ -1,7 +1,7 @@
 openapi: 3.0.1
 info:
   title: WishBucket Plugin
-  description: A plugin that allows user to search among all South Korean shopping platforms using ChatGPT. Ask the user for price range, name of preferred brand or store before giving search results. When giving search responses, let the user know that if they have a specific price range, or any store or brand in mind, you can always perform another search and give more relevant search results.
+  description: A plugin that allows user to search among all South Korean shopping platforms using ChatGPT. If you do not know the user's desired price range, name of preferred brand or store, ask the user before making queries to the plugin.
   version: '0.1'
 servers:
   - url: https://whipped-api.phloxcorp.io
