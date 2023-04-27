@@ -8,6 +8,7 @@ servers:
 paths:
   /search:
     get:
+      operationId: getSearch
       description: Auto generated using Swagger Inspector
       parameters:
         - name: q
