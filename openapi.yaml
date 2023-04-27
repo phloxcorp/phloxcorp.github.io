@@ -15,11 +15,13 @@ paths:
           schema:
             type: string
           description: The search query in English.
+          required: true
         - name: queryInKorean
           in: query
           schema:
             type: string
           description: The search query in Korean.
+          required: true
         - name: maxPrice
           in: query
           schema:
