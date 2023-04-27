@@ -10,11 +10,16 @@ paths:
     get:
       operationId: getSearch
       parameters:
-        - name: q
+        - name: queryInEnglish
           in: query
           schema:
             type: string
-          description: The search query.
+          description: The search query in English.
+        - name: queryInKorean
+          in: query
+          schema:
+            type: string
+          description: The search query in Korean.
         - name: maxPrice
           in: query
           schema:
@@ -59,4 +64,8 @@ components:
                 type: integer
               currency:
                 type: string
+              tags:
+                type: array
+                items:
+                  type: string
           description: The list of items.
