@@ -4,7 +4,7 @@ info:
   description: A plugin that allows user to search among all South Korean shopping platforms using ChatGPT. If you do not know the user's desired price range, or name of preferred brand or store, ask the user before making queries to the plugin.
   version: '0.1'
 servers:
-  - url: https://whipped-api.phloxcorp.io
+  - url: https://pickin2.phloxcorp.io
 paths:
   /search:
     get:
