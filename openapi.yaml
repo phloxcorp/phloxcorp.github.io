@@ -8,7 +8,7 @@ servers:
 paths:
   /search:
     get:
-      description: Accepts a search query and returns a list of items. Don't include words 'product', 'popular', and 'latest' in the query.
+      description: Accepts a search query and returns a list of items.
       operationId: getSearch
       parameters:
         - name: queryInEnglish
